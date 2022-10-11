@@ -16,7 +16,7 @@ function Navbar() {
       <nav className=' flex justify-between px-24 w-full h-auto'>
 
         <div>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className='cursor-pointer' />
         </div>
         <ul className='flex items-center justify-center gap-5 float-right '>
           <li className='list-none cursor-pointer hover:text-[#740287]  duration-500 text-white text-lg'>Home</li>
