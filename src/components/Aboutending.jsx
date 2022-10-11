@@ -18,7 +18,7 @@ function Aboutending() {
                       <li className='text-white capitalize leading-10 text-3xl mt-8 marker:text-[#E40000]'>Equality</li>
                   </div>
               </div>
-              <button className='self-center align-middle justify-center mt-12 flex m-auto w-[231px] h-[45px] p-3  text-white bg-gradient-to-r from-[#740287] to-[#020887] rounded-md capitalize'>Contact us</button>
+              <button className='self-center align-middle justify-center mt-12 flex m-auto w-[231px] h-[54px] p-3  text-xl font-semibold  text-white bg-gradient-to-r from-[#740287] to-[#020887] rounded-md capitalize'>Contact us</button>
           </div>
     </div>
   )
