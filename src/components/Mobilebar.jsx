@@ -9,7 +9,7 @@ const Mobilebar = ({toggle}) => {
       <ul className='flex duration-300 translate-x-5 flex-col p-12 w-full backdrop-blur-sm z-20 items-center gap-5 float-right'>
 
         {mobileItems.map(mobileItem => (
-          <li className = 'list-none upper cursor-pointer hover:text-[#740287]  duration-500 text-black text-lg' > {mobileItem} </li>
+          <li className = 'list-none capitalize cursor-pointer hover:text-[#740287]  duration-500 text-black text-lg' > {mobileItem} </li>
         ))}
 
         </ul>
