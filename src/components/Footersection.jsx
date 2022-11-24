@@ -38,8 +38,7 @@ function Footersection() {
             <div className="flex flex-col flex-1">
               <h1 className="capitalize text-lg font-semibold">resources</h1>
               <a href="#" className="capitalize text-sm font-thin leading-9">locations</a>
-              <a href="#" className="capitalize text-sm font-thin leading-9">contact</a>
-              
+              <a href="#" className="capitalize text-sm font-thin leading-9">contact</a>              
             </div>
           </div>
           <div>
