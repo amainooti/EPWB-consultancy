@@ -3,8 +3,8 @@ import valuesImage from "../images/valuesimage.png"
 
 function Aboutending() {
   return (
-      <div className=' relative mt-20 w-full h-screen gap-7 items-center justify-center flex flex-col justify-center self-center' style={{ backgroundImage: `url(${valuesImage})`, backgroundRepeat: "no-repeat", backgroundPosition: "center top ", backgroundSize: "cover" }}>
-          <div className='absolute top-32 w-[80%] h-72'>
+      <div className=' relative mt-20 w-full h-screen gap-7 items-center justify-center flex flex-col justify-center self-center overflow-visible' style={{ backgroundImage: `url(${valuesImage})`, backgroundRepeat: "no-repeat", backgroundPosition: "center top ", backgroundSize: "cover" }}>
+          <div className='absolute top-32 w-[80%]'>
               <h1 className='capitalize text-center text-white text-6xl font-bold'>Core values</h1>
               <div className='flex gap-9 mt-5 items-center'>
                   <div className='flex-1'>
