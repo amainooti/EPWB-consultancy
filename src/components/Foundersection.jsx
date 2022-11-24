@@ -29,7 +29,7 @@ function foundersection() {
           </p>
         </div>
         <div className="flex flex-col flex-1">
-          <img src={founderimage} alt="founder-image" />
+          <img src={founderimage} alt="founder" />
           <p className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#020887] to-[#740287]">
             Princess Nwakego Ibrahim-Pam receiving her award from the Korean
             National Sport Ministry

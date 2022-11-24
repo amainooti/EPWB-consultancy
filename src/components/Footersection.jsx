@@ -3,8 +3,9 @@ import logo from "../images/logo.png"
 
 function Footersection() {
   return (
-    <div className="text-white" style={{ backgroundColor: "#020887" }}>
-      <div className="flex m-20 gap-14">
+    <>
+    <div className="text-white" style={{ backgroundColor: "#020887", borderBottom:"5px solid #740287" }}>
+      <div className="flex m-20 gap-24">
         <div className="flex-1">
           <div className="flex items-center">
           <img
@@ -22,7 +23,7 @@ function Footersection() {
           </p>
         </div>
         <div className="flex-1 flex flex-col">
-          <div className="flex mb-5">
+          <div className="flex mb-5 gap-20">
             <div className="flex flex-col flex-1">
               <h1 className="capitalize text-lg font-semibold">company</h1>
               <a href="#" className="text-sm font-thin leading-9">Meet our experts</a>
@@ -44,15 +45,16 @@ function Footersection() {
           <div>
             <p>Join the revolution</p>
             <form action="#" method="post" className="flex items-center">
-              <label htmlFor="">
-                <input type="email" name="email" className="p-2 my-2 rounded-l" placeholder="Email address"/>
+              <label htmlFor="" className="w-5/6">
+                <input type="email" name="email" className="p-2 my-2 rounded-l w-full" placeholder="Email address"/>
               </label>
-              <button type="submit" style={{backgroundImage: "linear-gradient(to right, rgba(2, 70, 135, 0.6),rgba(116, 2, 135, 0.92)"}} className="p-2 rounded-r capitalize">sign up</button>
+              <button type="submit" style={{backgroundImage: "linear-gradient(to right, rgba(2, 70, 135, 0.6),rgba(116, 2, 135, 0.92)"}} className="p-2 rounded-r capitalize w-1/6">sign up</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+    </>
   );
 }
 

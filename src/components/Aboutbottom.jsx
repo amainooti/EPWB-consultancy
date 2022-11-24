@@ -15,7 +15,7 @@ function Aboutbottom() {
               </div>
               <div className='w-72 h-52'>
                   <h1 className=' font-bold text-center text-2xl capitalize text-transparent bg-clip-text  bg-gradient-to-r from-[#740287] to-[#020887]'> our mission</h1>
-                  <p className='text-center'>tement EPBWN Consultants is a diverse group of expatriate professionals. We enhance the advancement of expatriate spouses through Training, Networking, and the Mentoring and Placement Program. Our networking activities provide opportunities for women to share strengths, talents and experiences.</p>
+                  <p className='text-center'>EPBWN Consultants is a diverse group of expatriate professionals. We enhance the advancement of expatriate spouses through Training, Networking, and the Mentoring and Placement Program. Our networking activities provide opportunities for women to share strengths, talents and experiences.</p>
               </div>
           </div>
     </div>

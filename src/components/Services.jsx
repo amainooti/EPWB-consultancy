@@ -1,7 +1,7 @@
 import React from "react";
-import firstImage from "../images/firstServices.png";
-import secondImage from "../images/secondServices.png";
-import thirdImage from "../images/thirdServices.png";
+import firstImage from "../images/firstservice.png";
+import secondImage from "../images/secondservice.png";
+import thirdImage from "../images/thirdservice.png";
 import backImage from "../images/back-2.jpeg";
 
 function Services() {
@@ -43,7 +43,7 @@ function Services() {
         </div>
       </div>
       <div
-        className=" h-[307px] w-[85%] mx-auto my-10 rounded-3xl"
+        className=" h-[307px] w-[85%] mx-auto my-36 rounded-3xl"
         style={{
           backgroundImage: `url(${backImage})`,
           backgroundRepeat: "no-repeat",
