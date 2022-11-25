@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../images/logo.png"
 import Mobilebar from './Mobilebar';
 import { HiBars3BottomRight } from "react-icons/hi2"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 // mobile nav functionalities
@@ -42,7 +43,7 @@ function Navbar() {
         </div>
         <ul className='hidden md:flex items-center justify-center gap-5 float-right '>
           {mobileItems.map(mobileItem => (
-            <li className={`list-none cursor-pointer capitalize ${show && "text-[#740287] hover:text-black duration-500"} hover:text-[#740287]  duration-500 text-white text-lg`}>{mobileItem}</li>
+            <li className={`list-none cursor-pointer capitalize ${show && "text-[#740287] hover:text-black duration-500"} hover:text-[#740287]  duration-500 text-white text-lg`}> <Link to={`/${mobileItem}`}>{mobileItem}</Link></li>
 
           ))}
           </ul>
