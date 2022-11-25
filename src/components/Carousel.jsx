@@ -3,7 +3,7 @@ import Reviewcard from './Reviewcard'
 
 function Carousel() {
   return (
-      <div className='w-full'>
+      <div className='w-full '>
           <Reviewcard />
 
     </div>

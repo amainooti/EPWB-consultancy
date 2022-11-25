@@ -10,7 +10,7 @@ import Servicebottom from "./components/Servicebottom";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <>
       <Topsection />
       <Aboutsection />
       <Aboutcenter />
@@ -19,7 +19,7 @@ function App() {
       <Servicetop />
       <Servicemiddle />
       <Servicebottom />
-    </div>
+    </>
   );
 }
 
