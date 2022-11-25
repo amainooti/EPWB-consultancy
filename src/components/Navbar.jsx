@@ -48,7 +48,7 @@ function Navbar() {
           ))}
           </ul>
         {menu ? <Mobilebar toggle={handleMenu}/>:
-        <HiBars3BottomRight className='md:hidden lg:hidden' style={{fontSize: "1.9rem", color: "white", marginTop: "1rem"}} onClick= {handleMenu}  />
+        <HiBars3BottomRight className='md:hidden lg:hidden ' style={{fontSize: "1.9rem", marginTop: "1rem", color: "#AE78C4"}} onClick= {handleMenu}  />
      } </nav>
 
 
