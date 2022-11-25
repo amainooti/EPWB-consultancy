@@ -6,6 +6,7 @@ import Aboutending from "./components/Aboutending";
 import Servicetop from "./components/Servicetop";
 import Servicemiddle from "./components/Servicemiddle";
 import Servicebottom from "./components/Servicebottom";
+import Carousel from "./components/Carousel";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Servicetop />
       <Servicemiddle />
       <Servicebottom />
+      <Carousel />
     </div>
   );
 }
