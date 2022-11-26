@@ -21,7 +21,7 @@ function Carousel() {
         drag: true,
         snap: false,
         autoplay: true,
-        interval: 5000,
+        interval: 3500,
         pauseOnHover: true,
         breakpoints: {
 		  640: {

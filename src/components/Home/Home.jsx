@@ -21,8 +21,6 @@ function Home() {
     <Services/>
     <Foundersection />
     <Carousel />
-    <Footersection/>
-    <Copyright/>
   </div>
   )
 }
