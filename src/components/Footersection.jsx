@@ -39,14 +39,14 @@ function Footersection() {
             <div className="flex flex-col flex-1">
               <h1 className="capitalize text-lg font-semibold">resources</h1>
               <a href="#" className="capitalize text-sm font-thin leading-9">locations</a>
-              <a href="#" className="capitalize text-sm font-thin leading-9">contact</a>              
+              <a href="#" className="capitalize text-sm font-thin leading-9">contact</a>
             </div>
           </div>
           <div>
             <p>Join the revolution</p>
             <form action="#" method="post" className="flex items-center">
               <label htmlFor="" className="w-5/6">
-                <input type="email" name="email" className="p-2 my-2 rounded-l w-full" placeholder="Email address"/>
+                <input type="email" name="email" className="p-2 text-black focus:outline-none my-2 rounded-l w-full" placeholder="Email address"/>
               </label>
               <button type="submit" style={{backgroundImage: "linear-gradient(to right, rgba(2, 70, 135, 0.6),rgba(116, 2, 135, 0.92)"}} className="p-2 rounded-r capitalize w-1/6">sign up</button>
             </form>
