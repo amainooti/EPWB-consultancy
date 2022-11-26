@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Service from "./components/Services/Services"
 import Navbar from "./components/Navbar";
 import Footersection from "./components/Footersection";
 import Copyright from "./components/Copyright";
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
       </Routes>
       <Footersection />
       <Copyright />
