@@ -9,6 +9,7 @@ import Foundersection from "../Foundersection";
 import Footersection from "../Footersection";
 import Copyright from "../Copyright";
 import Carousel from '../Carousel';
+import Gallerysection from '../Gallerysection';
 
 function Home() {
   return (
@@ -20,7 +21,8 @@ function Home() {
     <Aboutending />
     <Services/>
     <Foundersection />
-    <Carousel />
+      <Carousel />
+      <Gallerysection />
   </div>
   )
 }

@@ -1,9 +1,9 @@
 import React from "react";
-import first from "../images/firstServices.png"
+import first from "../images/firstservice.png"
 import second from "../images/image 8.png"
-import sixth from "../images/secondServices.png"
+import sixth from "../images/secondservice.png"
 import fifth from "../images/image 14.png"
-import third from "../images/thirdServices.png"
+import third from "../images/thirdservice.png"
 import fourth from "../images/thirdaboutimage.png"
 
 function Gallerysection() {
