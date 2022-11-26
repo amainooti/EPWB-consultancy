@@ -65,6 +65,14 @@ function Carousel() {
             review = "EPBWN has amazing and supportive members. It really transformed my business and connected me to like minds around the world."
             />
         </SplideSlide>
+        <SplideSlide>
+          <Reviewcard
+            name="O"
+            topname="Ohai Raphael"
+            subhead="Motivating and Empowering"
+            review = "EPBWN has amazing and supportive members. It really transformed my business and connected me to like minds around the world."
+            />
+        </SplideSlide>
       </Splide>
       </div>
       </>
