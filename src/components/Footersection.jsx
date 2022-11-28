@@ -5,7 +5,7 @@ function Footersection() {
   return (
     <>
     <div className="text-white" style={{ backgroundColor: "#020887", borderBottom:"5px solid #740287" }}>
-      <div className="flex m-20 gap-24">
+      <div className="flex p-10 gap-24">
         <div className="flex-1">
           <div className="flex items-center">
           <img

@@ -67,7 +67,7 @@ function Services() {
           </div>
         </div>
         <div className="flex flex-col p-10">
-          <h1 className="text-5xl font-bold p-2 text-transparent bg-clip-text  bg-gradient-to-r from-[#020887] to-[#740287] mb-10">
+          <h1 className="text-5xl font-bold p-2 text-transparent bg-clip-text bg-gradient-to-r from-[#020887] to-[#740287] mb-10">
             Expatriate Communities and Welfare
           </h1>
           <p className="text-lg">
